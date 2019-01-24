@@ -287,7 +287,7 @@ parameters = model(X_train, Y_train, X_test, Y_test)
 
 
 #predict a custom image.
-my_image = "number2_tilt.jpg"
+my_image = "number02.jpg"
 fname = "images/" + my_image
 image = np.array(ndimage.imread(fname, flatten=False))
 my_image = scipy.misc.imresize(image, size=(64,64)).reshape((1, 64*64*3)).T
