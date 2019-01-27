@@ -1,5 +1,5 @@
 # A Deep neural network for classifying images of sign language digits [0-5].
-# Implemented with TensorFlow. Has 3 hidden layers and uses Xavier Initiallization,
+# Implemented with TensorFlow. Has 2 hidden layers and uses Xavier Initiallization,
 # an Adam Optimizer and mini-batches for training
 import time
 import math
